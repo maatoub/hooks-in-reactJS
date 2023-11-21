@@ -5,9 +5,11 @@ import { UserContext } from "./UserContext";
 const Context = () => {
   const [user, setUser] = useState("Nasser");
 
+  const userValues =[ user, setUser] ;
+
   return (
     <>
-      <UserContext.Provider className="container mt-5" value={{user}}>
+      <UserContext.Provider value={userValues}>
         <Users />
       </UserContext.Provider>
     </>
