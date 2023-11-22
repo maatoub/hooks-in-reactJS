@@ -4,6 +4,8 @@ import Ref from "./ref/Ref";
 import Memo from "./memo/Memo";
 import { Callback } from "./callback/Callback";
 import Context from "./context/Context";
+import Reducer from "./reducer/Reducer";
+import Exercise from "./reducer/Exercise";
 function App() {
   return (
     <div className="container">
@@ -11,7 +13,9 @@ function App() {
       {/* <Ref/> */}
       {/* <Memo/> */}
       {/* <Callback/> */}
-      <Context />
+      {/* <Context /> */}
+      {/* <Reducer/> */}
+      <Exercise />
     </div>
   );
 }
